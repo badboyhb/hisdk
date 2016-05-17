@@ -32,6 +32,4 @@ RUN mkdir /source
 
 WORKDIR /source
 
-ENTRYPOINT /bin/bash
-
 
