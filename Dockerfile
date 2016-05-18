@@ -6,7 +6,7 @@ MAINTAINER HuBo <hubo@21cn.com>
 
 RUN rm -fr /bin/sh && ln -s /bin/bash /bin/sh && apt-get update
 
-RUN apt-get -y install python
+RUN apt-get -y install python bc
 
 RUN apt-get -y install git gnupg flex bison gperf build-essential \
 	zip curl libc6-dev libncurses5-dev x11proto-core-dev \
